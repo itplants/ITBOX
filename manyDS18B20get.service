@@ -1,0 +1,13 @@
+[Unit]
+Decription=The manyDS18B20get 
+
+[Service]
+Type=simple
+Environment=LANG=C
+ExecStart=/home/pi/src/ITBOX/manyDS18B20get.sh
+ExecStop=/bin/kill -WINCH ${MAINPID}
+KillSignal=SIGINT
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

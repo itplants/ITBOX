@@ -1,0 +1,19 @@
+2016/12/15 11:41:58
+hum 38.86
+currentTemp 18.35
+press 1003.1
+targetTemp 20
+currentLux 4129
+pwm 1000
+dir 0
+AH 5.080512460608745
+Tpeltier 0
+Tcondensation 9.022843975191627
+Pws 21.10712702682495
+Pw 8.202229562624176
+Dair 1.1990126762331088
+Mratio 0.050860201255629914
+CondensCondition true
+FreezeCondition false
+correction 0.7990000000000005
+EOF

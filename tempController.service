@@ -1,0 +1,13 @@
+[Unit]
+Decription=The datServer Server port 8100
+
+[Service]
+Type=simple
+Environment=LANG=C
+ExecStart=/home/pi/src/ITBOX/start.sh 
+ExecStop=/bin/kill -WINCH ${MAINPID}
+KillSignal=SIGINT
+PrivateTmp=true
+
+[Install]
+WantedBy=multi-user.target

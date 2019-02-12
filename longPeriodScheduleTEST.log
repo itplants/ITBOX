@@ -1,0 +1,1188 @@
+process.argv=/opt/nodejs/bin/node,/home/pi/src/ITBOX/testLong.js,-t
+startStopDaemon
+changeConfigFile ./saveLongPeriodSchedule.txt
+file load= ./saveLongPeriodSchedule.txt
+file watch start
+data=targetTemp 22 period 01:00,targetTemp 37 period 01:30,setPID Kp 400 Ki 0.01 Kd 0.0025
+targetTempArray=targetTemp 22 period 01:00,targetTemp 37 period 01:30
+PIDparameterSet=setPID Kp 400 Ki 0.01 Kd 0.0025
+cancel job start
+job.length=
+job.length=
+cancel job end
+targetTempArray[0]=targetTemp 22 period 01:00
+btime=01:00
+targetTempArray[1]=targetTemp 37 period 01:30
+btime=01:30
+hour;min=2:30 intervalTime=9000000
+n=2
+targetTemp[0]= targetTemp 22
+Setting Time  hour:min=0:0 delayTime[0]= 0
+setTime[0]=01,00
+targetTemp[1]= targetTemp 37
+Setting Time  hour:min=1:0 delayTime[1]= 3600000
+setTime[1]=01,30
+changeConfigFile end
+startStopDaemon finish.
+wbf= 0 intervalTime= 9000000
+wbf= 0 targetTemp[0]= targetTemp 22
+wbf= 0 PIDparameterSet=setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+4/22/2018, 10:47:56 AM
+writeConfigFile targetTemp,22
+writeConfigFile end of writeConfigFile :
+targetTemp 22 start 0:0
+setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+array= /opt/nodejs/bin/node,/home/pi/src/ITBOX/testLong.js,-t,-s,1,-nw
+index= 3
+Tscale= 1
+process.argv=/opt/nodejs/bin/node,/home/pi/src/ITBOX/testLong.js,-t,-s,1,-nw
+startStopDaemon
+changeConfigFile ./saveLongPeriodSchedule.txt
+file load= ./saveLongPeriodSchedule.txt
+file watch start
+data=targetTemp 22 period 01:00,targetTemp 37 period 01:30,setPID Kp 400 Ki 0.01 Kd 0.0025
+targetTempArray=targetTemp 22 period 01:00,targetTemp 37 period 01:30
+PIDparameterSet=setPID Kp 400 Ki 0.01 Kd 0.0025
+cancel job start
+job.length=
+job.length=
+cancel job end
+targetTempArray[0]=targetTemp 22 period 01:00
+btime=01:00
+targetTempArray[1]=targetTemp 37 period 01:30
+btime=01:30
+hour;min=2:30 intervalTime=9000
+n=2
+targetTemp[0]= targetTemp 22
+Setting Time  hour:min=0:0 delayTime[0]= 0
+setTime[0]=01,00
+targetTemp[1]= targetTemp 37
+Setting Time  hour:min=1:0 delayTime[1]= 3600
+setTime[1]=01,30
+changeConfigFile end
+startStopDaemon finish.
+wbf= 0 intervalTime= 9000
+wbf= 0 targetTemp[0]= targetTemp 22
+wbf= 0 PIDparameterSet=setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+4/22/2018, 11:55:26 AM
+writeConfigFile targetTemp,22
+writeConfigFile end of writeConfigFile :
+targetTemp 22 start 0:0
+setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+wbf= 1 intervalTime= 9000
+wbf= 1 targetTemp[1]= targetTemp 37
+wbf= 1 PIDparameterSet=setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+4/22/2018, 11:55:29 AM
+writeConfigFile targetTemp,37
+writeConfigFile end of writeConfigFile :
+targetTemp 37 start 0:0
+setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+--------------
+4/22/2018, 11:55:35 AM
+writeConfigFile targetTemp,22
+writeConfigFile end of writeConfigFile :
+targetTemp 22 start 0:0
+setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+--------------
+4/22/2018, 11:55:38 AM
+writeConfigFile targetTemp,37
+writeConfigFile end of writeConfigFile :
+targetTemp 37 start 0:0
+setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+--------------
+4/22/2018, 11:55:44 AM
+writeConfigFile targetTemp,22
+writeConfigFile end of writeConfigFile :
+targetTemp 22 start 0:0
+setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+--------------
+4/22/2018, 11:55:47 AM
+writeConfigFile targetTemp,37
+writeConfigFile end of writeConfigFile :
+targetTemp 37 start 0:0
+setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+array= /opt/nodejs/bin/node,/home/pi/src/ITBOX/testLong.js,-t,-s,10,-nw
+index= 3
+Tscale= 10
+process.argv=/opt/nodejs/bin/node,/home/pi/src/ITBOX/testLong.js,-t,-s,10,-nw
+startStopDaemon
+changeConfigFile ./saveLongPeriodSchedule.txt
+file load= ./saveLongPeriodSchedule.txt
+file watch start
+data=targetTemp 22 period 01:00,targetTemp 37 period 01:30,setPID Kp 400 Ki 0.01 Kd 0.0025
+targetTempArray=targetTemp 22 period 01:00,targetTemp 37 period 01:30
+PIDparameterSet=setPID Kp 400 Ki 0.01 Kd 0.0025
+cancel job start
+job.length=
+job.length=
+cancel job end
+targetTempArray[0]=targetTemp 22 period 01:00
+btime=01:00
+targetTempArray[1]=targetTemp 37 period 01:30
+btime=01:30
+hour;min=2:30 intervalTime=90000
+n=2
+targetTemp[0]= targetTemp 22
+Setting Time  hour:min=0:0 delayTime[0]= 0
+setTime[0]=01,00
+targetTemp[1]= targetTemp 37
+Setting Time  hour:min=1:0 delayTime[1]= 36000
+setTime[1]=01,30
+changeConfigFile end
+startStopDaemon finish.
+wbf= 0 intervalTime= 90000
+wbf= 0 targetTemp[0]= targetTemp 22
+wbf= 0 PIDparameterSet=setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+4/22/2018, 11:56:07 AM
+writeConfigFile targetTemp,22
+writeConfigFile end of writeConfigFile :
+targetTemp 22 start 0:0
+setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+wbf= 1 intervalTime= 90000
+wbf= 1 targetTemp[1]= targetTemp 37
+wbf= 1 PIDparameterSet=setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+4/22/2018, 11:56:43 AM
+writeConfigFile targetTemp,37
+writeConfigFile end of writeConfigFile :
+targetTemp 37 start 0:0
+setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+array= /opt/nodejs/bin/node,/home/pi/src/ITBOX/testLong.js,-t,-s,100,-nw
+index= 3
+Tscale= 100
+process.argv=/opt/nodejs/bin/node,/home/pi/src/ITBOX/testLong.js,-t,-s,100,-nw
+startStopDaemon
+changeConfigFile ./saveLongPeriodSchedule.txt
+file load= ./saveLongPeriodSchedule.txt
+file watch start
+data=targetTemp 22 period 01:00,targetTemp 37 period 01:30,setPID Kp 400 Ki 0.01 Kd 0.0025
+targetTempArray=targetTemp 22 period 01:00,targetTemp 37 period 01:30
+PIDparameterSet=setPID Kp 400 Ki 0.01 Kd 0.0025
+cancel job start
+job.length=
+job.length=
+cancel job end
+targetTempArray[0]=targetTemp 22 period 01:00
+btime=01:00
+targetTempArray[1]=targetTemp 37 period 01:30
+btime=01:30
+hour;min=2:30 intervalTime=900000
+n=2
+targetTemp[0]= targetTemp 22
+Setting Time  hour:min=0:0 delayTime[0]= 0
+setTime[0]=01,00
+targetTemp[1]= targetTemp 37
+Setting Time  hour:min=1:0 delayTime[1]= 360000
+setTime[1]=01,30
+changeConfigFile end
+startStopDaemon finish.
+wbf= 0 intervalTime= 900000
+wbf= 0 targetTemp[0]= targetTemp 22
+wbf= 0 PIDparameterSet=setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+4/22/2018, 11:57:30 AM
+writeConfigFile targetTemp,22
+writeConfigFile end of writeConfigFile :
+targetTemp 22 start 0:0
+setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+array= /opt/nodejs/bin/node,/home/pi/src/ITBOX/testLong.js,-t,-s,100,-nw
+index= 3
+Tscale= 100
+process.argv=/opt/nodejs/bin/node,/home/pi/src/ITBOX/testLong.js,-t,-s,100,-nw
+startStopDaemon
+changeConfigFile ./saveLongPeriodSchedule.txt
+file load= ./saveLongPeriodSchedule.txt
+file watch start
+data=targetTemp 22 period 01:00,targetTemp 37 period 01:30,setPID Kp 400 Ki 0.01 Kd 0.0025
+targetTempArray=targetTemp 22 period 01:00,targetTemp 37 period 01:30
+PIDparameterSet=setPID Kp 400 Ki 0.01 Kd 0.0025
+cancel job start
+job.length=
+job.length=
+cancel job end
+targetTempArray[0]=targetTemp 22 period 01:00
+btime=01:00
+targetTempArray[1]=targetTemp 37 period 01:30
+btime=01:30
+hour;min=2:30 intervalTime=900000
+n=2
+targetTemp[0]= targetTemp 22
+Setting Time  hour:min=0:0 delayTime[0]= 0
+setTime[0]=01,00
+targetTemp[1]= targetTemp 37
+Setting Time  hour:min=1:0 delayTime[1]= 360000
+setTime[1]=01,30
+changeConfigFile end
+startStopDaemon finish.
+wbf= 0 intervalTime= 900000
+wbf= 0 targetTemp[0]= targetTemp 22
+wbf= 0 PIDparameterSet=setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+4/22/2018, 11:58:09 AM
+writeConfigFile targetTemp,22
+writeConfigFile end of writeConfigFile :
+targetTemp 22 start 0:0
+setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+wbf= 1 intervalTime= 900000
+wbf= 1 targetTemp[1]= targetTemp 37
+wbf= 1 PIDparameterSet=setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+4/22/2018, 12:04:09 PM
+writeConfigFile targetTemp,37
+writeConfigFile end of writeConfigFile :
+targetTemp 37 start 0:0
+setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+array= /opt/nodejs/bin/node,/home/pi/src/ITBOX/testLong.js,-t,-s,1000,-nw
+index= 3
+Tscale= 1000
+process.argv=/opt/nodejs/bin/node,/home/pi/src/ITBOX/testLong.js,-t,-s,1000,-nw
+startStopDaemon
+changeConfigFile ./saveLongPeriodSchedule.txt
+file load= ./saveLongPeriodSchedule.txt
+file watch start
+data=targetTemp 22 period 01:00,targetTemp 37 period 01:30,setPID Kp 400 Ki 0.01 Kd 0.0025
+targetTempArray=targetTemp 22 period 01:00,targetTemp 37 period 01:30
+PIDparameterSet=setPID Kp 400 Ki 0.01 Kd 0.0025
+cancel job start
+job.length=
+job.length=
+cancel job end
+targetTempArray[0]=targetTemp 22 period 01:00
+btime=01:00
+targetTempArray[1]=targetTemp 37 period 01:30
+btime=01:30
+hour;min=2:30 intervalTime=9000000
+n=2
+targetTemp[0]= targetTemp 22
+Setting Time  hour:min=0:0 delayTime[0]= 0
+setTime[0]=01,00
+targetTemp[1]= targetTemp 37
+Setting Time  hour:min=1:0 delayTime[1]= 3600000
+setTime[1]=01,30
+changeConfigFile end
+startStopDaemon finish.
+wbf= 0 intervalTime= 9000000
+wbf= 0 targetTemp[0]= targetTemp 22
+wbf= 0 PIDparameterSet=setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+4/22/2018, 12:05:35 PM
+writeConfigFile targetTemp,22
+writeConfigFile end of writeConfigFile :
+targetTemp 22 start 0:0
+setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+array= /opt/nodejs/bin/node,/home/pi/src/ITBOX/testLong.js,-t,-nw,-s,1
+index= 4
+Tscale= 1
+process.argv=/opt/nodejs/bin/node,/home/pi/src/ITBOX/testLong.js,-t,-nw,-s,1
+startStopDaemon
+changeConfigFile ./saveLongPeriodSchedule.txt
+file load= ./saveLongPeriodSchedule.txt
+file watch start
+data=targetTemp 22 period 01:00,targetTemp 37 period 01:30,setPID Kp 400 Ki 0.01 Kd 0.0025
+targetTempArray=targetTemp 22 period 01:00,targetTemp 37 period 01:30
+PIDparameterSet=setPID Kp 400 Ki 0.01 Kd 0.0025
+cancel job start
+job.length=
+job.length=
+cancel job end
+targetTempArray[0]=targetTemp 22 period 01:00
+btime=01:00
+targetTempArray[1]=targetTemp 37 period 01:30
+btime=01:30
+hour;min=2:30 intervalTime=9000
+n=2
+targetTemp[0]= targetTemp 22
+Setting Time  hour:min=0:0 delayTime[0]= 0
+setTime[0]=01,00
+targetTemp[1]= targetTemp 37
+Setting Time  hour:min=1:0 delayTime[1]= 3600
+setTime[1]=01,30
+changeConfigFile end
+startStopDaemon finish.
+wbf= 0 intervalTime= 9000
+wbf= 0 targetTemp[0]= targetTemp 22
+wbf= 0 PIDparameterSet=setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+4/22/2018, 3:06:53 PM
+writeConfigFile targetTemp,22
+writeConfigFile end of writeConfigFile :
+targetTemp 22 start 0:0
+setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+wbf= 1 intervalTime= 9000
+wbf= 1 targetTemp[1]= targetTemp 37
+wbf= 1 PIDparameterSet=setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+4/22/2018, 3:06:57 PM
+writeConfigFile targetTemp,37
+writeConfigFile end of writeConfigFile :
+targetTemp 37 start 0:0
+setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+--------------
+4/22/2018, 3:07:03 PM
+writeConfigFile targetTemp,22
+writeConfigFile end of writeConfigFile :
+targetTemp 22 start 0:0
+setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+--------------
+4/22/2018, 3:07:06 PM
+writeConfigFile targetTemp,37
+writeConfigFile end of writeConfigFile :
+targetTemp 37 start 0:0
+setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+--------------
+4/22/2018, 3:07:12 PM
+writeConfigFile targetTemp,22
+writeConfigFile end of writeConfigFile :
+targetTemp 22 start 0:0
+setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+--------------
+4/22/2018, 3:07:15 PM
+writeConfigFile targetTemp,37
+writeConfigFile end of writeConfigFile :
+targetTemp 37 start 0:0
+setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+array= /opt/nodejs/bin/node,/home/pi/src/ITBOX/testLong.js,-t,-nw,-s,10
+index= 4
+Tscale= 10
+process.argv=/opt/nodejs/bin/node,/home/pi/src/ITBOX/testLong.js,-t,-nw,-s,10
+startStopDaemon
+changeConfigFile ./saveLongPeriodSchedule.txt
+file load= ./saveLongPeriodSchedule.txt
+file watch start
+data=targetTemp 22 period 01:00,targetTemp 37 period 01:30,setPID Kp 400 Ki 0.01 Kd 0.0025
+targetTempArray=targetTemp 22 period 01:00,targetTemp 37 period 01:30
+PIDparameterSet=setPID Kp 400 Ki 0.01 Kd 0.0025
+cancel job start
+job.length=
+job.length=
+cancel job end
+targetTempArray[0]=targetTemp 22 period 01:00
+btime=01:00
+targetTempArray[1]=targetTemp 37 period 01:30
+btime=01:30
+hour;min=2:30 intervalTime=90000
+n=2
+targetTemp[0]= targetTemp 22
+Setting Time  hour:min=0:0 delayTime[0]= 0
+setTime[0]=01,00
+targetTemp[1]= targetTemp 37
+Setting Time  hour:min=1:0 delayTime[1]= 36000
+setTime[1]=01,30
+changeConfigFile end
+startStopDaemon finish.
+wbf= 0 intervalTime= 90000
+wbf= 0 targetTemp[0]= targetTemp 22
+wbf= 0 PIDparameterSet=setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+4/22/2018, 3:10:26 PM
+writeConfigFile targetTemp,22
+writeConfigFile end of writeConfigFile :
+targetTemp 22 start 0:0
+setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+wbf= 1 intervalTime= 90000
+wbf= 1 targetTemp[1]= targetTemp 37
+wbf= 1 PIDparameterSet=setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+4/22/2018, 3:11:02 PM
+writeConfigFile targetTemp,37
+writeConfigFile end of writeConfigFile :
+targetTemp 37 start 0:0
+setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+--------------
+4/22/2018, 3:11:56 PM
+writeConfigFile targetTemp,22
+writeConfigFile end of writeConfigFile :
+targetTemp 22 start 0:0
+setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+--------------
+4/22/2018, 3:12:32 PM
+writeConfigFile targetTemp,37
+writeConfigFile end of writeConfigFile :
+targetTemp 37 start 0:0
+setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+--------------
+4/22/2018, 3:13:26 PM
+writeConfigFile targetTemp,22
+writeConfigFile end of writeConfigFile :
+targetTemp 22 start 0:0
+setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+--------------
+4/22/2018, 3:14:02 PM
+writeConfigFile targetTemp,37
+writeConfigFile end of writeConfigFile :
+targetTemp 37 start 0:0
+setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+--------------
+4/22/2018, 3:14:57 PM
+writeConfigFile targetTemp,22
+writeConfigFile end of writeConfigFile :
+targetTemp 22 start 0:0
+setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+--------------
+4/22/2018, 3:15:32 PM
+writeConfigFile targetTemp,37
+writeConfigFile end of writeConfigFile :
+targetTemp 37 start 0:0
+setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+--------------
+4/22/2018, 3:16:27 PM
+writeConfigFile targetTemp,22
+writeConfigFile end of writeConfigFile :
+targetTemp 22 start 0:0
+setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+--------------
+4/22/2018, 3:17:02 PM
+writeConfigFile targetTemp,37
+writeConfigFile end of writeConfigFile :
+targetTemp 37 start 0:0
+setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+--------------
+4/22/2018, 3:17:57 PM
+writeConfigFile targetTemp,22
+writeConfigFile end of writeConfigFile :
+targetTemp 22 start 0:0
+setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+--------------
+4/22/2018, 3:18:32 PM
+writeConfigFile targetTemp,37
+writeConfigFile end of writeConfigFile :
+targetTemp 37 start 0:0
+setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+--------------
+4/22/2018, 3:19:27 PM
+writeConfigFile targetTemp,22
+writeConfigFile end of writeConfigFile :
+targetTemp 22 start 0:0
+setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+array= /opt/nodejs/bin/node,/home/pi/src/ITBOX/testLong.js,-t,-nw,-s,1
+index= 4
+Tscale= 1
+process.argv=/opt/nodejs/bin/node,/home/pi/src/ITBOX/testLong.js,-t,-nw,-s,1
+startStopDaemon
+changeConfigFile ./saveLongPeriodSchedule.txt
+file load= ./saveLongPeriodSchedule.txt
+file watch start
+data=targetTemp 22 period 01:00,targetTemp 37 period 01:30,setPID Kp 400 Ki 0.01 Kd 0.0025
+targetTempArray=targetTemp 22 period 01:00,targetTemp 37 period 01:30
+PIDparameterSet=setPID Kp 400 Ki 0.01 Kd 0.0025
+cancel job start
+job.length=
+job.length=
+cancel job end
+targetTempArray[0]=targetTemp 22 period 01:00
+btime=01:00
+targetTempArray[1]=targetTemp 37 period 01:30
+btime=01:30
+hour;min=2:30 intervalTime=9000
+n=2
+targetTemp[0]= targetTemp 22
+Setting Time  hour:min=0:0 delayTime[0]= 0
+setTime[0]=01,00
+targetTemp[1]= targetTemp 37
+Setting Time  hour:min=1:0 delayTime[1]= 3600
+setTime[1]=01,30
+changeConfigFile end
+startStopDaemon finish.
+wbf= 0 intervalTime= 9000
+wbf= 0 targetTemp[0]= targetTemp 22
+wbf= 0 PIDparameterSet=setPID Kp 400 Ki 0.01 Kd 0.0025
+array= /opt/nodejs/bin/node,/home/pi/src/ITBOX/testLong.js,-t,-nw,-s,10
+index= 4
+Tscale= 10
+process.argv=/opt/nodejs/bin/node,/home/pi/src/ITBOX/testLong.js,-t,-nw,-s,10
+startStopDaemon
+changeConfigFile ./saveLongPeriodSchedule.txt
+file load= ./saveLongPeriodSchedule.txt
+file watch start
+data=targetTemp 22 period 01:00,targetTemp 37 period 01:30,setPID Kp 400 Ki 0.01 Kd 0.0025
+targetTempArray=targetTemp 22 period 01:00,targetTemp 37 period 01:30
+PIDparameterSet=setPID Kp 400 Ki 0.01 Kd 0.0025
+cancel job start
+job.length=
+job.length=
+cancel job end
+targetTempArray[0]=targetTemp 22 period 01:00
+btime=01:00
+targetTempArray[1]=targetTemp 37 period 01:30
+btime=01:30
+hour;min=2:30 intervalTime=90000
+n=2
+targetTemp[0]= targetTemp 22
+Setting Time  hour:min=0:0 delayTime[0]= 0
+setTime[0]=01,00
+targetTemp[1]= targetTemp 37
+Setting Time  hour:min=1:0 delayTime[1]= 36000
+setTime[1]=01,30
+changeConfigFile end
+startStopDaemon finish.
+wbf= 0 intervalTime= 90000
+wbf= 0 targetTemp[0]= targetTemp 22
+wbf= 0 PIDparameterSet=setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+4/22/2018, 3:21:54 PM
+writeConfigFile targetTemp,22
+writeConfigFile end of writeConfigFile :
+targetTemp 22 start 0:0
+setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+array= /opt/nodejs/bin/node,/home/pi/src/ITBOX/testLong.js,-t,-nw,-s,10
+index= 4
+Tscale= 10
+process.argv=/opt/nodejs/bin/node,/home/pi/src/ITBOX/testLong.js,-t,-nw,-s,10
+startStopDaemon
+changeConfigFile ./saveLongPeriodSchedule.txt
+file load= ./saveLongPeriodSchedule.txt
+file watch start
+data=targetTemp 22 period 01:00,targetTemp 37 period 01:30,setPID Kp 400 Ki 0.01 Kd 0.0025
+targetTempArray=targetTemp 22 period 01:00,targetTemp 37 period 01:30
+PIDparameterSet=setPID Kp 400 Ki 0.01 Kd 0.0025
+cancel job start
+job.length=
+job.length=
+cancel job end
+targetTempArray[0]=targetTemp 22 period 01:00
+btime=01:00
+targetTempArray[1]=targetTemp 37 period 01:30
+btime=01:30
+hour;min=2:30 intervalTime=90000
+n=2
+targetTemp[0]= targetTemp 22
+Setting Time  hour:min=0:0 delayTime[0]= 0
+setTime[0]=01,00
+targetTemp[1]= targetTemp 37
+Setting Time  hour:min=1:0 delayTime[1]= 36000
+setTime[1]=01,30
+changeConfigFile end
+startStopDaemon finish.
+wbf= 0 intervalTime= 90000
+wbf= 0 targetTemp[0]= targetTemp 22
+wbf= 0 PIDparameterSet=setPID Kp 400 Ki 0.01 Kd 0.0025
+array= /opt/nodejs/bin/node,/home/pi/src/ITBOX/testLong.js,-t,-nw,-s,10
+index= 4
+Tscale= 10
+process.argv=/opt/nodejs/bin/node,/home/pi/src/ITBOX/testLong.js,-t,-nw,-s,10
+startStopDaemon
+changeConfigFile ./saveLongPeriodSchedule.txt
+file load= ./saveLongPeriodSchedule.txt
+file watch start
+data=targetTemp 22 period 01:00,targetTemp 37 period 01:30,setPID Kp 400 Ki 0.01 Kd 0.0025
+targetTempArray=targetTemp 22 period 01:00,targetTemp 37 period 01:30
+PIDparameterSet=setPID Kp 400 Ki 0.01 Kd 0.0025
+cancel job start
+job.length=
+job.length=
+cancel job end
+targetTempArray[0]=targetTemp 22 period 01:00
+btime=01:00
+targetTempArray[1]=targetTemp 37 period 01:30
+btime=01:30
+hour;min=2:30 intervalTime=90000
+n=2
+targetTemp[0]= targetTemp 22
+Setting Time  hour:min=0:0 delayTime[0]= 0
+setTime[0]=01,00
+targetTemp[1]= targetTemp 37
+Setting Time  hour:min=1:0 delayTime[1]= 36000
+setTime[1]=01,30
+changeConfigFile end
+startStopDaemon finish.
+wbf= 0 intervalTime= 90000
+wbf= 0 targetTemp[0]= targetTemp 22
+wbf= 0 PIDparameterSet=setPID Kp 400 Ki 0.01 Kd 0.0025
+array= /opt/nodejs/bin/node,/home/pi/src/ITBOX/testLong.js,-t,-nw,-s,10
+index= 4
+Tscale= 10
+process.argv=/opt/nodejs/bin/node,/home/pi/src/ITBOX/testLong.js,-t,-nw,-s,10
+startStopDaemon
+changeConfigFile ./saveLongPeriodSchedule.txt
+file load= ./saveLongPeriodSchedule.txt
+file watch start
+data=targetTemp 22 period 01:00,targetTemp 37 period 01:30,setPID Kp 400 Ki 0.01 Kd 0.0025
+targetTempArray=targetTemp 22 period 01:00,targetTemp 37 period 01:30
+PIDparameterSet=setPID Kp 400 Ki 0.01 Kd 0.0025
+cancel job start
+job.length=
+job.length=
+cancel job end
+targetTempArray[0]=targetTemp 22 period 01:00
+btime=01:00
+targetTempArray[1]=targetTemp 37 period 01:30
+btime=01:30
+hour;min=2:30 intervalTime=90000
+n=2
+targetTemp[0]= targetTemp 22
+Setting Time  hour:min=0:0 delayTime[0]= 0
+setTime[0]=01,00
+targetTemp[1]= targetTemp 37
+Setting Time  hour:min=1:0 delayTime[1]= 36000
+setTime[1]=01,30
+changeConfigFile end
+startStopDaemon finish.
+wbf= 0 intervalTime= 90000
+wbf= 0 targetTemp[0]= targetTemp 22
+wbf= 0 PIDparameterSet=setPID Kp 400 Ki 0.01 Kd 0.0025
+array= /opt/nodejs/bin/node,/home/pi/src/ITBOX/testLong.js,-t,-nw,-s,1
+index= 4
+Tscale= 1
+process.argv=/opt/nodejs/bin/node,/home/pi/src/ITBOX/testLong.js,-t,-nw,-s,1
+startStopDaemon
+changeConfigFile ./saveLongPeriodSchedule.txt
+file load= ./saveLongPeriodSchedule.txt
+file watch start
+data=targetTemp 22 period 01:00,targetTemp 37 period 01:30,setPID Kp 400 Ki 0.01 Kd 0.0025
+targetTempArray=targetTemp 22 period 01:00,targetTemp 37 period 01:30
+PIDparameterSet=setPID Kp 400 Ki 0.01 Kd 0.0025
+cancel job start
+job.length=
+job.length=
+cancel job end
+targetTempArray[0]=targetTemp 22 period 01:00
+btime=01:00
+targetTempArray[1]=targetTemp 37 period 01:30
+btime=01:30
+hour;min=2:30 intervalTime=9000
+n=2
+targetTemp[0]= targetTemp 22
+Setting Time  hour:min=0:0 delayTime[0]= 0
+setTime[0]=01,00
+targetTemp[1]= targetTemp 37
+Setting Time  hour:min=1:0 delayTime[1]= 3600
+setTime[1]=01,30
+changeConfigFile end
+startStopDaemon finish.
+wbf= 0 intervalTime= 9000
+wbf= 0 targetTemp[0]= targetTemp 22
+wbf= 0 PIDparameterSet=setPID Kp 400 Ki 0.01 Kd 0.0025
+wbf= 1 intervalTime= 9000
+wbf= 1 targetTemp[1]= targetTemp 37
+wbf= 1 PIDparameterSet=setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+4/22/2018, 3:25:26 PM
+writeConfigFile targetTemp,22
+writeConfigFile end of writeConfigFile :
+targetTemp 22 start 0:0
+setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+--------------
+4/22/2018, 3:25:30 PM
+writeConfigFile targetTemp,37
+writeConfigFile end of writeConfigFile :
+targetTemp 37 start 0:0
+setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+--------------
+4/22/2018, 3:25:35 PM
+writeConfigFile targetTemp,22
+writeConfigFile end of writeConfigFile :
+targetTemp 22 start 0:0
+setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+--------------
+4/22/2018, 3:25:39 PM
+writeConfigFile targetTemp,37
+writeConfigFile end of writeConfigFile :
+targetTemp 37 start 0:0
+setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+--------------
+4/22/2018, 3:25:44 PM
+writeConfigFile targetTemp,22
+writeConfigFile end of writeConfigFile :
+targetTemp 22 start 0:0
+setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+array= /opt/nodejs/bin/node,/home/pi/src/ITBOX/testLong.js,-t,-nw,-s,1
+index= 4
+Tscale= 1
+process.argv=/opt/nodejs/bin/node,/home/pi/src/ITBOX/testLong.js,-t,-nw,-s,1
+startStopDaemon
+changeConfigFile ./saveLongPeriodSchedule.txt
+file load= ./saveLongPeriodSchedule.txt
+file watch start
+data=targetTemp 22 period 01:00,targetTemp 37 period 01:30,setPID Kp 400 Ki 0.01 Kd 0.0025
+targetTempArray=targetTemp 22 period 01:00,targetTemp 37 period 01:30
+PIDparameterSet=setPID Kp 400 Ki 0.01 Kd 0.0025
+cancel job start
+job.length=
+job.length=
+cancel job end
+targetTempArray[0]=targetTemp 22 period 01:00
+btime=01:00
+targetTempArray[1]=targetTemp 37 period 01:30
+btime=01:30
+hour;min=2:30 intervalTime=9000
+n=2
+targetTemp[0]= targetTemp 22
+Setting Time  hour:min=0:0 delayTime[0]= 0
+setTime[0]=01,00
+targetTemp[1]= targetTemp 37
+Setting Time  hour:min=1:0 delayTime[1]= 3600
+setTime[1]=01,30
+changeConfigFile end
+startStopDaemon finish.
+wbf= 0 intervalTime= 9000
+wbf= 0 targetTemp[0]= targetTemp 22
+wbf= 0 PIDparameterSet=setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+4/22/2018, 3:26:00 PM
+writeConfigFile targetTemp,22
+writeConfigFile end of writeConfigFile :
+targetTemp 22 start 0:0
+setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+wbf= 1 intervalTime= 9000
+wbf= 1 targetTemp[1]= targetTemp 37
+wbf= 1 PIDparameterSet=setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+4/22/2018, 3:26:03 PM
+writeConfigFile targetTemp,37
+writeConfigFile end of writeConfigFile :
+targetTemp 37 start 0:0
+setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+--------------
+4/22/2018, 3:26:09 PM
+writeConfigFile targetTemp,22
+writeConfigFile end of writeConfigFile :
+targetTemp 22 start 0:0
+setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+--------------
+4/22/2018, 3:26:12 PM
+writeConfigFile targetTemp,37
+writeConfigFile end of writeConfigFile :
+targetTemp 37 start 0:0
+setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+--------------
+4/22/2018, 3:26:18 PM
+writeConfigFile targetTemp,22
+writeConfigFile end of writeConfigFile :
+targetTemp 22 start 0:0
+setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+--------------
+4/22/2018, 3:26:21 PM
+writeConfigFile targetTemp,37
+writeConfigFile end of writeConfigFile :
+targetTemp 37 start 0:0
+setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+--------------
+4/22/2018, 3:26:27 PM
+writeConfigFile targetTemp,22
+writeConfigFile end of writeConfigFile :
+targetTemp 22 start 0:0
+setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+--------------
+4/22/2018, 3:26:30 PM
+writeConfigFile targetTemp,37
+writeConfigFile end of writeConfigFile :
+targetTemp 37 start 0:0
+setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+--------------
+4/22/2018, 3:26:36 PM
+writeConfigFile targetTemp,22
+writeConfigFile end of writeConfigFile :
+targetTemp 22 start 0:0
+setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+--------------
+4/22/2018, 3:26:39 PM
+writeConfigFile targetTemp,37
+writeConfigFile end of writeConfigFile :
+targetTemp 37 start 0:0
+setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+--------------
+4/22/2018, 3:26:45 PM
+writeConfigFile targetTemp,22
+writeConfigFile end of writeConfigFile :
+targetTemp 22 start 0:0
+setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+--------------
+4/22/2018, 3:26:48 PM
+writeConfigFile targetTemp,37
+writeConfigFile end of writeConfigFile :
+targetTemp 37 start 0:0
+setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+array= /opt/nodejs/bin/node,/home/pi/src/ITBOX/testLong.js,-t,-nw,-s,1
+index= 4
+Tscale= 1
+process.argv=/opt/nodejs/bin/node,/home/pi/src/ITBOX/testLong.js,-t,-nw,-s,1
+startStopDaemon
+changeConfigFile ./saveLongPeriodSchedule.txt
+file load= ./saveLongPeriodSchedule.txt
+file watch start
+data=targetTemp 22 period 01:00,targetTemp 37 period 01:30,setPID Kp 400 Ki 0.01 Kd 0.0025
+targetTempArray=targetTemp 22 period 01:00,targetTemp 37 period 01:30
+PIDparameterSet=setPID Kp 400 Ki 0.01 Kd 0.0025
+cancel job start
+job.length=
+job.length=
+cancel job end
+targetTempArray[0]=targetTemp 22 period 01:00
+btime=01:00
+targetTempArray[1]=targetTemp 37 period 01:30
+btime=01:30
+hour;min=2:30 intervalTime=9000
+n=2
+targetTemp[0]= targetTemp 22
+Setting Time  hour:min=0:0 delayTime[0]= 0
+setTime[0]=01,00
+targetTemp[1]= targetTemp 37
+Setting Time  hour:min=1:0 delayTime[1]= 3600
+setTime[1]=01,30
+changeConfigFile end
+startStopDaemon finish.
+wbf= 0 intervalTime= 9000
+wbf= 0 targetTemp[0]= targetTemp 22
+wbf= 0 PIDparameterSet=setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+4/22/2018, 3:27:04 PM
+writeConfigFile targetTemp,22
+writeConfigFile end of writeConfigFile :
+targetTemp 22 start 0:0
+setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+wbf= 1 intervalTime= 9000
+wbf= 1 targetTemp[1]= targetTemp 37
+wbf= 1 PIDparameterSet=setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+4/22/2018, 3:27:07 PM
+writeConfigFile targetTemp,37
+writeConfigFile end of writeConfigFile :
+targetTemp 37 start 0:0
+setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+--------------
+4/22/2018, 3:27:13 PM
+writeConfigFile targetTemp,22
+writeConfigFile end of writeConfigFile :
+targetTemp 22 start 0:0
+setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+--------------
+4/22/2018, 3:27:16 PM
+writeConfigFile targetTemp,37
+writeConfigFile end of writeConfigFile :
+targetTemp 37 start 0:0
+setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+--------------
+4/22/2018, 3:27:22 PM
+writeConfigFile targetTemp,22
+writeConfigFile end of writeConfigFile :
+targetTemp 22 start 0:0
+setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+array= /opt/nodejs/bin/node,/home/pi/src/ITBOX/testLong.js,-t,-nw,-s,1000,start
+index= 4
+Tscale= 1000
+process.argv=/opt/nodejs/bin/node,/home/pi/src/ITBOX/testLong.js,-t,-nw,-s,1000,start
+startStopDaemon
+changeConfigFile ./saveLongPeriodSchedule.txt
+file load= ./saveLongPeriodSchedule.txt
+file watch start
+data=targetTemp 22 period 01:00,targetTemp 37 period 01:30,setPID Kp 400 Ki 0.01 Kd 0.0025
+targetTempArray=targetTemp 22 period 01:00,targetTemp 37 period 01:30
+PIDparameterSet=setPID Kp 400 Ki 0.01 Kd 0.0025
+cancel job start
+job.length=
+job.length=
+cancel job end
+targetTempArray[0]=targetTemp 22 period 01:00
+btime=01:00
+targetTempArray[1]=targetTemp 37 period 01:30
+btime=01:30
+hour;min=2:30 intervalTime=9000000
+n=2
+targetTemp[0]= targetTemp 22
+Setting Time  hour:min=0:0 delayTime[0]= 0
+setTime[0]=01,00
+targetTemp[1]= targetTemp 37
+Setting Time  hour:min=1:0 delayTime[1]= 3600000
+setTime[1]=01,30
+changeConfigFile end
+startStopDaemon finish.
+wbf= 0 intervalTime= 9000000
+wbf= 0 targetTemp[0]= targetTemp 22
+wbf= 0 PIDparameterSet=setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+4/22/2018, 3:27:58 PM
+writeConfigFile targetTemp,22
+writeConfigFile end of writeConfigFile :
+targetTemp 22 start 0:0
+setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+array= /opt/nodejs/bin/node,/home/pi/src/ITBOX/testLong.js,-t,-nw,-s,1,start
+index= 4
+Tscale= 1
+process.argv=/opt/nodejs/bin/node,/home/pi/src/ITBOX/testLong.js,-t,-nw,-s,1,start
+startStopDaemon
+changeConfigFile ./saveLongPeriodSchedule.txt
+file load= ./saveLongPeriodSchedule.txt
+file watch start
+data=targetTemp 22 period 01:00,targetTemp 37 period 01:30,setPID Kp 400 Ki 0.01 Kd 0.0025
+targetTempArray=targetTemp 22 period 01:00,targetTemp 37 period 01:30
+PIDparameterSet=setPID Kp 400 Ki 0.01 Kd 0.0025
+cancel job start
+job.length=
+job.length=
+cancel job end
+targetTempArray[0]=targetTemp 22 period 01:00
+btime=01:00
+targetTempArray[1]=targetTemp 37 period 01:30
+btime=01:30
+hour;min=2:30 intervalTime=9000
+n=2
+targetTemp[0]= targetTemp 22
+Setting Time  hour:min=0:0 delayTime[0]= 0
+setTime[0]=01,00
+targetTemp[1]= targetTemp 37
+Setting Time  hour:min=1:0 delayTime[1]= 3600
+setTime[1]=01,30
+changeConfigFile end
+startStopDaemon finish.
+wbf= 0 intervalTime= 9000
+wbf= 0 targetTemp[0]= targetTemp 22
+wbf= 0 PIDparameterSet=setPID Kp 400 Ki 0.01 Kd 0.0025
+wbf= 1 intervalTime= 9000
+wbf= 1 targetTemp[1]= targetTemp 37
+wbf= 1 PIDparameterSet=setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+4/22/2018, 3:28:53 PM
+writeConfigFile targetTemp,22
+writeConfigFile end of writeConfigFile :
+targetTemp 22 start 0:0
+setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+--------------
+4/22/2018, 3:28:57 PM
+writeConfigFile targetTemp,37
+writeConfigFile end of writeConfigFile :
+targetTemp 37 start 0:0
+setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+--------------
+4/22/2018, 3:29:03 PM
+writeConfigFile targetTemp,22
+writeConfigFile end of writeConfigFile :
+targetTemp 22 start 0:0
+setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+--------------
+4/22/2018, 3:29:06 PM
+writeConfigFile targetTemp,37
+writeConfigFile end of writeConfigFile :
+targetTemp 37 start 0:0
+setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+--------------
+4/22/2018, 3:29:12 PM
+writeConfigFile targetTemp,22
+writeConfigFile end of writeConfigFile :
+targetTemp 22 start 0:0
+setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+array= /opt/nodejs/bin/node,/home/pi/src/ITBOX/testLong.js,-t,-nw,-s,1,-start
+index= 4
+Tscale= 1
+process.argv=/opt/nodejs/bin/node,/home/pi/src/ITBOX/testLong.js,-t,-nw,-s,1,-start
+startStopDaemon
+changeConfigFile ./saveLongPeriodSchedule.txt
+file load= ./saveLongPeriodSchedule.txt
+file watch start
+data=targetTemp 22 period 01:00,targetTemp 37 period 01:30,setPID Kp 400 Ki 0.01 Kd 0.0025
+targetTempArray=targetTemp 22 period 01:00,targetTemp 37 period 01:30
+PIDparameterSet=setPID Kp 400 Ki 0.01 Kd 0.0025
+cancel job start
+job.length=
+job.length=
+cancel job end
+targetTempArray[0]=targetTemp 22 period 01:00
+btime=01:00
+targetTempArray[1]=targetTemp 37 period 01:30
+btime=01:30
+hour;min=2:30 intervalTime=9000
+n=2
+targetTemp[0]= targetTemp 22
+Setting Time  hour:min=0:0 delayTime[0]= 0
+setTime[0]=01,00
+targetTemp[1]= targetTemp 37
+Setting Time  hour:min=1:0 delayTime[1]= 3600
+setTime[1]=01,30
+changeConfigFile end
+startStopDaemon finish.
+wbf= 0 intervalTime= 9000
+wbf= 0 targetTemp[0]= targetTemp 22
+wbf= 0 PIDparameterSet=setPID Kp 400 Ki 0.01 Kd 0.0025
+wbf= 1 intervalTime= 9000
+wbf= 1 targetTemp[1]= targetTemp 37
+wbf= 1 PIDparameterSet=setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+4/22/2018, 3:29:52 PM
+writeConfigFile targetTemp,22
+writeConfigFile end of writeConfigFile :
+targetTemp 22 start 0:0
+setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+--------------
+4/22/2018, 3:29:55 PM
+writeConfigFile targetTemp,37
+writeConfigFile end of writeConfigFile :
+targetTemp 37 start 0:0
+setPID Kp 400 Ki 0.01 Kd 0.0025
+--------------
+array= /opt/nodejs/bin/node,/home/pi/src/ITBOX/testLong.js,-t,-nw,-s,1000,-start
+index= 4
+Tscale= 1000
+process.argv=/opt/nodejs/bin/node,/home/pi/src/ITBOX/testLong.js,-t,-nw,-s,1000,-start
+startStopDaemon
+changeConfigFile ./saveLongPeriodSchedule.txt
+file load= ./saveLongPeriodSchedule.txt
+file watch start
+data=targetTemp 22 period 01:00,targetTemp 37 period 01:30,setPID Kp 400 Ki 0.01 Kd 0.0025
+targetTempArray=targetTemp 22 period 01:00,targetTemp 37 period 01:30
+PIDparameterSet=setPID Kp 400 Ki 0.01 Kd 0.0025
+cancel job start
+job.length=
+job.length=
+cancel job end
+targetTempArray[0]=targetTemp 22 period 01:00
+btime=01:00
+targetTempArray[1]=targetTemp 37 period 01:30
+btime=01:30
+hour;min=2:30 intervalTime=9000000
+n=2
+targetTemp[0]= targetTemp 22
+Setting Time  hour:min=0:0 delayTime[0]= 0
+setTime[0]=01,00
+targetTemp[1]= targetTemp 37
+Setting Time  hour:min=1:0 delayTime[1]= 3600000
+setTime[1]=01,30
+changeConfigFile end
+startStopDaemon finish.
+wbf= 0 intervalTime= 9000000
+wbf= 0 targetTemp[0]= targetTemp 22
+wbf= 0 PIDparameterSet=setPID Kp 400 Ki 0.01 Kd 0.0025
+array= /opt/nodejs/bin/node,/home/pi/src/ITBOX/testLong.js,-t,-nw,-s,1000,-start,-nl
+index= 4
+Tscale= 1000
+process.argv=/opt/nodejs/bin/node,/home/pi/src/ITBOX/testLong.js,-t,-nw,-s,1000,-start,-nl
+startStopDaemon
+changeConfigFile ./saveLongPeriodSchedule.txt
+file load= ./saveLongPeriodSchedule.txt
+file watch start
+data=targetTemp 22 period 01:00,targetTemp 37 period 01:30,setPID Kp 400 Ki 0.01 Kd 0.0025
+targetTempArray=targetTemp 22 period 01:00,targetTemp 37 period 01:30
+PIDparameterSet=setPID Kp 400 Ki 0.01 Kd 0.0025
+cancel job start
+job.length=
+job.length=
+cancel job end
+targetTempArray[0]=targetTemp 22 period 01:00
+btime=01:00
+targetTempArray[1]=targetTemp 37 period 01:30
+btime=01:30
+hour;min=2:30 intervalTime=9000000
+n=2
+targetTemp[0]= targetTemp 22
+Setting Time  hour:min=0:0 delayTime[0]= 0
+setTime[0]=01,00
+targetTemp[1]= targetTemp 37
+Setting Time  hour:min=1:0 delayTime[1]= 3600000
+setTime[1]=01,30
+changeConfigFile end
+startStopDaemon finish.
+wbf= 0 intervalTime= 9000000
+wbf= 0 targetTemp[0]= targetTemp 22
+wbf= 0 PIDparameterSet=setPID Kp 400 Ki 0.01 Kd 0.0025
+array= /opt/nodejs/bin/node,/home/pi/src/ITBOX/testLong.js,-t,-nw,-s,1000,-start,-nl
+index= 4
+Tscale= 1000
+array= /opt/nodejs/bin/node,/home/pi/src/ITBOX/testLong.js,-t,-nw,-s,1000,-start,-nl
+index= 4
+Tscale= 1000
+array= /opt/nodejs/bin/node,/home/pi/src/ITBOX/testLong.js,-t,-nw,-s,1,-start,-nl
+index= 4
+Tscale= 1
+array= /opt/nodejs/bin/node,/home/pi/src/ITBOX/testLong.js,-t,-nw,-s,1,-start,-nl
+index= 4
+Tscale= 1
+array= /opt/nodejs/bin/node,/home/pi/src/ITBOX/testLong.js,-t,-nw,-s,10,-start,-nl
+index= 4
+Tscale= 10
+array= /opt/nodejs/bin/node,/home/pi/src/ITBOX/testLong.js,-t,-nw,-s,10,-start,-nl
+index= 4
+Tscale= 10
+array= /opt/nodejs/bin/node,/home/pi/src/ITBOX/testLong.js,-t,-nw,-s,10,-start,-nl
+index= 4
+Tscale= 10
+array= /opt/nodejs/bin/node,/home/pi/src/ITBOX/testLong.js,-t,-nw,-s,10,-start,-nl
+index= 4
+Tscale= 10
+array= /opt/nodejs/bin/node,/home/pi/src/ITBOX/testLong.js,-t,-nw,-s,10,-start,-nl
+index= 4
+Tscale= 10
+array= /opt/nodejs/bin/node,/home/pi/src/ITBOX/testLong.js,-t,-nw,-s,10,-start,-nl
+index= 4
+Tscale= 10
+array= /opt/nodejs/bin/node,/home/pi/src/ITBOX/testLong.js,-t,-nw,-s,10,-start,-nl
+index= 4
+Tscale= 10
+array= /opt/nodejs/bin/node,/home/pi/src/ITBOX/testLong.js,-t,-nw,-s,10,-start,-nl
+index= 4
+Tscale= 10
+array= /opt/nodejs/bin/node,/home/pi/src/ITBOX/testLong.js,-t,-nw,-s,10,-start,-nl
+index= 4
+Tscale= 10
+array= /opt/nodejs/bin/node,/home/pi/src/ITBOX/testLong.js,-t,-nw,-s,10,-start,-nl
+index= 4
+Tscale= 10
+array= /opt/nodejs/bin/node,/home/pi/src/ITBOX/testLong.js,-t,-nw,-s,10,-start,-nl
+index= 4
+Tscale= 10
+array= /opt/nodejs/bin/node,/home/pi/src/ITBOX/testLong.js,-t,-nw,-s,10,-start,-nl
+index= 4
+Tscale= 10

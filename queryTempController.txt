@@ -1,0 +1,17 @@
+hum
+currentTemp
+press
+targetTemp
+currentLux
+pwm
+dir
+AH
+Tpeltier
+Tcondensation
+Pws
+Pw
+Dair
+Mratio
+CondensCondition
+FreezeCondition
+correction

@@ -1,0 +1,14 @@
+[Unit]
+Decription=The shortPeriodCOntroller
+
+[Service]
+Type=simple
+Environment=LANG=C
+ExecStart=/home/pi/src/ITBOX/shortPeriodControl.js
+ExecStop=/bin/kill -WINCH ${MAINPID}
+KillSignal=SIGINT
+PrivateTmp=true
+Restart = always
+
+[Install]
+WantedBy=multi-user.target

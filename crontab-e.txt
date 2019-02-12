@@ -1,0 +1,2 @@
+  30 0  *   *   *     cd /home/pi/src/ITBOX;/usr/bin/sudo /home/pi/src/ITBOX/yestaDayLog.js -r 2> /dev/null 2>&1
+#  30 0  0   *   *     cd /home/pi/src/ITBOX;/usr/bin/sudo /home/pi/src/ITBOX/allDayLog.py 2> /dev/null
